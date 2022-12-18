@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Memory di Oreste</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+
+  <body>
+    <div class="main-score">
+      <span class="score">Coppie: 0</span>
+      <span class="time">Tempo: 120</span>
+    </div>
+
+    <div id="game"></div>
+    <div class="scoreboard"></div>
+    <div class="controls">
+      <i class="pause-btn click" aria-hidden="true"></i>
+      <i class="click" aria-hidden="true" onclick="location.reload()"></i>
+    </div>
+    <div class="paused">
+      <img src="./img/pause-menu.jpg" alt="" width="500" />
+      <p>Paused</p>
+      <span class="play-btn">
+        <i class="fa fa-play click" aria-hidden="true"></i>
+      </span>
+    </div>
+    <!-- <div class="social">
+      <a href="https://github.com/dephraiim" target="_blank">
+        <i class="fa fa-github fa-3x click"></i>
+      </a>
+      <a href="https://twitter.com/dephraiim" target="_blank">
+        <i class="fa fa-twitter fa-3x click"></i>
+      </a>
+      <a href="https://instagram.com/dephraiim" target="_blank">
+        <i class="fa fa-instagram fa-3x click"></i>
+      </a>
+      <a href="mailto:ephraimduncan68@gmail.com" target="_blank">
+        <i class="fa fa-envelope fa-3x click"></i>
+      </a>
+    </div> -->
+    <div class="start">
+      <!-- <img src="./img/pageload.png" alt="Mario" width="300" />
+      <p>Benvenuto al memory di Oreste</p> -->
+      <span class="start-btn click">Livello 2<br><br>Gioca</span>
+    </div>
+
+    <script src="js/script_l2.js"></script>
+  </body>
+</html>
